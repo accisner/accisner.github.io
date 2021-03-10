@@ -69,18 +69,19 @@ html, body {
 }
 
 .center {
-    width: 1000px;
-	padding: 0%;
-    margin: 10px auto;
+    width: 80%;
+    max-width: 800px
+	padding: 2%;
+    margin: 100px auto;
  	background: rgba(0, 0, 0, 0); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: none;
+    /*removed the border*/
 }
 
    
 #logo {
-    margin-bottom: 300px;
-	border: none;
+    margin-bottom: 50px;
+    margin-top: 40px
 	text-align: center;
 }
 
@@ -112,6 +113,7 @@ p {
     font-style: normal;	;
 	font-size: 1.2em;
     line-height: 1.6;
+    letter-spacing: 5px;
     color: #fff;
 
 }
