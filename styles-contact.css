@@ -63,6 +63,7 @@ html, body {
   background: url(images/background.jpg)
         center center fixed no-repeat;
         background-size: cover;
+    /*new image background as of march 17, 2021*/
       
 	
 	
@@ -77,20 +78,22 @@ html, body {
  	background: rgba(255, 255, 255, 100); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border: 8px solid pink;
+    /* added a boarder and maked the background solid white*/
 }
 
    
 #logo {
     margin-bottom: 16px;
-    border: 3px solid white 
     text-align: center;
+    /* got rid of the boarder*/
 }
 
 h1 {font-family: lust, serif;
     font-weight: 700;
     font-style: normal;
 	font-size: 4em;
-    margin: 0px auto 10px auto;
+    font-kerning: 5px; 
+    margin: 0px auto 0px auto;
     color: #000;
 }
 
@@ -98,9 +101,10 @@ h2 {
 	font-family: lust, serif;
     font-weight: 100;
     font-style: normal;
-	font-size: 3em;
-    color: #b7410e; 
+	font-size: 2em;
+    color: #943d26; 
     margin: 0px auto 0px auto;
+    /* added the rust color! got rid of border*/ 
 
         
 }
@@ -132,13 +136,15 @@ nav a{
     }
     
 a{
-    color:darkblue;
+    color: #2d273f;
     text-decoration: none;
     font-weight: bold;
     font-size: 2em;
     margin-bottom: 3em; 
+    border: 8px solid pink;
+    /* added solid pink border to text*/ 
     }
 a:hover{
-    color:navy;
+    color:#2d273f;
     background: pink;
     }
