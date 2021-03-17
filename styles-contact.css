@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/flower_bg.jpg)
+  background: url(images/background.jpg)
         center center fixed no-repeat;
         background-size: cover;
       
@@ -69,40 +69,38 @@ html, body {
 }
 
 .center {
-    width: 80%;
-    max-width: 800px
-	padding: 2%;
+    width: 800px;
+    height: 800px;
+	padding: 4%;
     margin: 100px auto;
- 	background: rgba(0, 0, 0, 0); /*this uses opacity of 75% for the background color*/
+    margin-bottom: 100px auto;
+ 	background: rgba(255, 255, 255, 100); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-    /*removed the border*/
+	border: 8px solid pink;
 }
 
    
 #logo {
-    margin-bottom: 50px;
-    margin-top: 40px
-	text-align: center;
+    margin-bottom: 16px;
+    border: 3px solid white 
+    text-align: center;
 }
 
 h1 {font-family: lust, serif;
     font-weight: 700;
     font-style: normal;
 	font-size: 4em;
-    margin: 0px auto 0px auto;
-    background: rgba(255, 255, 255, .5);
+    margin: 0px auto 10px auto;
     color: #000;
 }
 
 h2 {
 	font-family: lust, serif;
-    font-weight: 700;
+    font-weight: 100;
     font-style: normal;
 	font-size: 3em;
-    line-height: normal;
-    color: #ffb6c1; 
-    padding: 0px 0px;
-    margin: 4px auto 4px auto;
+    color: #b7410e; 
+    margin: 0px auto 0px auto;
 
         
 }
@@ -119,10 +117,10 @@ p {
 }
 
 nav{font-family: lust, serif;
-    font-weight: 600;
-    font-style: normal;
+    font-size: 1.2em;
+    width: 200px
     text-align: center;
-    margin-top: 7em;  
+    margin-top: 4em;  
 }
 
 nav li{
@@ -130,17 +128,17 @@ nav li{
     }
 nav a{
     display:inline-block;
-    padding: 10px;
+    padding: 30px;
     }
     
 a{
-    color:black;
+    color:darkblue;
     text-decoration: none;
     font-weight: bold;
     font-size: 2em;
     margin-bottom: 3em; 
     }
 a:hover{
-    color:black;
+    color:navy;
     background: pink;
     }
