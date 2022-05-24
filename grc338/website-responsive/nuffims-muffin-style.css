@@ -1,0 +1,139 @@
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; inherit;} 
+
+body {
+    padding: 0.5rem;
+    background-color:#fafafa;
+}
+img {
+    width: 100%;
+    display: block;
+    padding: 1rem 0rem 1rem 
+}
+h1{
+    width: 9em;
+    padding: 0rem  0rem 1rem; 
+}
+h2{
+    font-family: dejanire-headline,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    color:  rgb(133,169,192);
+    padding: 1rem 0rem 0.5rem 0rem;
+
+}
+h3{
+    font-family: dejanire-headline,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: rgb(46 64 87);
+    border-bottom: 0.2rem solid rgb(133,169,192);
+    padding: 0rem 0rem 0.3rem;
+}
+h4{
+    font-family: dejanire-headline, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #1e1e1e
+}
+p{
+    font-family: arboria,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0rem 0rem 0rem;
+    color: #1e1e1e
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    font-family: arboria,sans-serif;
+    font-weight: 400;
+    margin-right: 1rem;
+}
+nav ul li a{
+    color: rgb(133,169,192);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(46 64 87);
+}
+ul li p{
+    margin: 0rem 0rem 0rem;
+}
+ul li{
+    margin: 0rem 0rem 1rem;
+}
+ul li p a{
+   text-decoration: none;
+   color: rgb(46, 64, 87);
+}
+ul li p a:hover{
+    color: rgb(133,169,192);
+}
+p.price {
+	color: rgb(133,169,192);
+}
+@media only screen and (min-width: 60em){
+
+div.container{
+    max-width: 60em;
+    margin: auto;
+    display: grid;
+}
+section.menuitems{
+        display: grid;
+        grid-template-columns: 50% auto;
+        column-gap: 3em;
+}
+section.menuitems ul li{
+    padding: 1rem 0rem 0rem;
+    list-style: none;
+}
+section.about{
+    display: grid;
+    grid-template-columns: 50% auto;
+    column-gap: 3em;
+    padding: 0rem 0rem 0rem;
+    border-top: 0.2rem solid rgb(133,169,192);
+}
+section.about p{
+    padding: 1rem 0rem 0rem;
+}
+main{
+    padding: 1rem 0rem 0rem;
+}
+h3{
+    section.contact ul li
+    padding: 0rem 0rem 0rem;
+    margin-bottom: 1rem;
+}
+figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+}
+section.contact{
+    display: grid;
+    grid-template-columns: 50% auto;
+    column-gap: 3em;
+}
+section.contact ul li{
+padding: 0rem 0rem 0rem;
+list-style: none;
+}
+section.contact ul li h2{
+    border-bottom: 0.2rem solid rgb(46, 64, 87);
+    padding: 1rem 0rem 0rem;
+}
+section.index{
+    display: grid;
+    grid-template-columns: 50% auto;
+    column-gap: 3em;
+    padding: 0rem 0rem 0rem;
+    border-top: 0.2rem solid rgb(133,169,192);
+}
+section.index p{
+    padding: 1rem 0rem 0rem;
+}
